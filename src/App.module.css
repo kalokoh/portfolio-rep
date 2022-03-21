@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+
+.typical {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.resume-container{
+  margin-top: 5em;
+  
+}
+.btn {
+  background-color: #123d23;
+  text-transform: capitalize;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  padding: 0.5em 0em;
+  margin: 4em auto;
+  margin-left: 42%;
+  width: 13%;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+@media (max-width: 1000px) {
+  .btn{
+    margin-left: 35%;
+    width: 30%;
+  }
+}
+
+@media (max-width: 600px) {
+  .btn{
+    width: 40%;
+    margin-left: 28%;
+    font-size: 12px;
+  }
+}
+@media (max-width: 350px) {
+  .btn{
+    width: 60%;
+    margin-left: 20%;
+  }
+}

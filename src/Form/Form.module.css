@@ -1,0 +1,85 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  border-radius: 10px;
+}
+
+.form input {
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 0.2em;
+}
+.form label {
+  margin-top: 0.7em;
+  margin-left: 0.3em;
+  margin-bottom: 0em;
+  color: white;
+}
+.form button {
+  width: 100%;
+  padding: 0.5em;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(42, 95, 95);
+  color: white;
+  margin-top: 1em;
+  margin-left: auto;
+  cursor: pointer;
+  margin-right: auto;
+}
+.submitted {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.submitted-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.submitted-container button {
+  background-color: rgb(42, 95, 95);
+  text-transform: capitalize;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  padding: 0.5em 0em;
+  width: 15%;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+@media (max-width: 600px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+  }
+  .submitted {
+    width: 99%;
+  }
+  .submitted-container button{
+      width: 60%;
+  }
+}
+.form p {
+  color: red;
+  font-size: 10px;
+}
+.form button {
+  border: none;
+}

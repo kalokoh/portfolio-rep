@@ -1,0 +1,19 @@
+.menu2 {
+  margin-top: -0.4em;
+  position: absolute;
+  justify-content: flex-start;
+  width: 20em;
+  height: 100vh;
+  background-color: #123d23;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+.menu2 li {
+  list-style: none;
+  color: white;
+  padding: 1em 0;
+  border-bottom: white solid 1px;
+  cursor: pointer;
+  margin-left: -2em;
+}

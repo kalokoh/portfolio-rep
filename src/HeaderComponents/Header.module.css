@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans+Narrow&display=swap');
+
+/* font-family: 'Lobster', cursive;
+font-family: 'PT Sans Narrow', sans-serif; */
+
+
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: #123d23;
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.name{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    margin-left: 1em;
+}
+.name p{
+    font-size: 2rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}

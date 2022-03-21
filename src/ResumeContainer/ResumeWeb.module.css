@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+
+.resume-container {
+  font-family: "PT Sans Narrow", sans-serif;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.resume-container h1 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.resume {
+  display: flex;
+  flex-direction: row;
+}
+
+.icons {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 3.2%;
+  height: 300px;
+  color: white;
+  align-content: center;
+}
+.icon {
+  font-size: 25px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5em;
+}
+
+.list ul li {
+  list-style: none;
+  color: blue;
+  margin-top: 1.45em;
+  font-size: 22px;
+  margin-left: -2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  cursor: pointer;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.list ul li:hover {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 950px) {
+  .resume-container {
+    width: 98%;
+  }
+  .icons {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    color: black;
+    background-color: white;
+    display: none;
+
+    width: 100%;
+    height: 60px;
+  }
+  .resume {
+    flex-direction: column;
+  }
+  .list ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .list ul li {
+    color: chocolate;
+    background-color: transparent;
+    font-weight: bold;
+    text-decoration: underline;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: fit-content;
+  }
+  .resume-container h1 {
+    text-align: center;
+    margin-bottom: 0.1em;
+  }
+}
+@media (max-width: 620px) {
+  .list ul li {
+    color: chocolate;
+    font-size: 15px;
+    margin-left: -3em;
+    font-weight: bold;
+    text-decoration: underline;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .list ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .list ul li:hover {
+    color: black;
+    background-color: transparent;
+  }
+  .resume-container {
+    width: 98%;
+  }
+}
+@media (max-width: 350px) {
+  .list ul {
+    flex-direction: column;
+  }
+}

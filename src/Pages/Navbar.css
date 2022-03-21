@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+
+.navbar-brand {
+  color: rgb(17, 12, 12) !important;
+}
+.nav-item {
+  color: black !important;
+}
+#man {
+  margin-left: auto !important;
+}
+#navItem a {
+  margin: 0 1em !important;
+  font-family: 'PT Sans Narrow', sans-serif !important;
+  color: white;
+  font-size: large;
+}
+#header {
+  background-color: #123d23 !important;
+}
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus, .navbar-nav > li > a:hover {
+  border-top: 3px solid white;
+}
+span {
+  color: white !important;
+}
+
+@media (max-width: 600px) {
+  .navbar-brand {
+    color: white !important;
+    font-size: 2rem !important;
+    font-weight: bold;
+    font-family: "PT Sans Narrow", sans-serif;
+  }
+  
+}
+@media (min-width: 600px) {
+  .navbar-brand {
+    color: white !important;
+    font-size: 3rem !important;
+    font-weight: bold;
+    font-family: "PT Sans Narrow", sans-serif;
+  }
+  
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+.contact-container{
+    margin-top: 5em;
+    width: 100%;
+    background: url('../Assest/000000.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+}
+.first h1 {
+    text-align: center;
+}
+.contact{
+    padding-top: 0.4em;
+    width: 100%;
+}
+.second{
+    padding-bottom: 2em;
+}

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.861c0e39.chunk.css",
+    "main.js": "/static/js/main.dd59c1c4.chunk.js",
+    "main.js.map": "/static/js/main.dd59c1c4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d935bac7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d935bac7.js.map",
+    "static/css/2.8c0e6b67.chunk.css": "/static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.d79c4826.chunk.js": "/static/js/2.d79c4826.chunk.js",
+    "static/js/2.d79c4826.chunk.js.map": "/static/js/2.d79c4826.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.8c0e6b67.chunk.css.map": "/static/css/2.8c0e6b67.chunk.css.map",
+    "static/css/main.861c0e39.chunk.css.map": "/static/css/main.861c0e39.chunk.css.map",
+    "static/js/2.d79c4826.chunk.js.LICENSE.txt": "/static/js/2.d79c4826.chunk.js.LICENSE.txt",
+    "static/media/Contact.module.css": "/static/media/000000.c7ee01be.jpg",
+    "static/media/alie.be05a616.jpg": "/static/media/alie.be05a616.jpg",
+    "static/media/photo_Alie kalokoh.cb2a1f87.jpg": "/static/media/photo_Alie kalokoh.cb2a1f87.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d935bac7.js",
+    "static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.d79c4826.chunk.js",
+    "static/css/main.861c0e39.chunk.css",
+    "static/js/main.dd59c1c4.chunk.js"
+  ]
+}
